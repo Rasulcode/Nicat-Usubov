@@ -1,6 +1,13 @@
 body {
     font-family: 'Lato', sans-serif;
   }
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
   
   .overlay {
     height: 100%;

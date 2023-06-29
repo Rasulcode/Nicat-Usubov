@@ -10,22 +10,43 @@
     <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-        
+
     
 <!-- Navbar section -->
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <a href="#">Nicat haqqında</a>
-            <a href="#">Fotoalbom</a>
-            <a href="#">Oxuduğu kitablar</a>
-            <a href="#">Nicatizm idealogiyası</a>
-          </div>
+<section id="navbarAndLogo">
+    <div class="container">
+        <div class="header">
+            <div class="col-lg-4">
+                <div class="navbar">
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                          <a href="#">Nicat haqqında</a>
+                          <a href="#">Fotoalbom</a>
+                          <a href="#">Oxuduğu kitablar</a>
+                          <a href="#">Nicatizm idealogiyası</a>
+                        </div>
+                    </div>
+                      <span style="font-size:30px;cursor:pointer; flex-wrap: wrap;" onclick="openNav()">&#9776;</span>                      
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="nicatlogo">
+                    <p class="navname" style="font-size: large;flex-wrap: wrap; text-align: center; font-weight: bold;">Nicat Usubov</p>
+                </div> 
+            </div>
+            <div class="col-lg-4">
+                <div class="nicatlogo">
+                    <img src="/Images/logo.png" style="flex-wrap: wrap;width: 80px; height: 80px; float: right; " >
+                </div> 
+            </div>
         </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+</section>
         
-        
-        <script src="Javascript/introduction.js"></script>
     
+
+
+<script src="Javascript/introduction.js"></script>
 </body>
 </html>
